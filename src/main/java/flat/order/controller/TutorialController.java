@@ -12,11 +12,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:8071")
 @RestController
 @RequestMapping("/api")
 public class TutorialController {
 
+    Object object;
     @Autowired
     TutorialRepository tutorialRepository;
 
