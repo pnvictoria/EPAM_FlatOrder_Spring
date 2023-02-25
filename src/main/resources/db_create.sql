@@ -1,3 +1,10 @@
+DROP TABLE IF EXISTS public.counters;
+DROP TABLE IF EXISTS public.documents;
+DROP TABLE IF EXISTS public.apartments;
+DROP TABLE IF EXISTS public.users;
+DROP TABLE IF EXISTS public.apartment_types;
+DROP TABLE IF EXISTS public.user_types;
+
 CREATE TABLE user_types (
   id SERIAL PRIMARY KEY,
   name TEXT NOT NULL
