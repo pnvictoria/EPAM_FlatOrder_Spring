@@ -6,8 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class FlatOrderApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(FlatOrderApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(FlatOrderApplication.class, args);
+    }
 
 }
+
